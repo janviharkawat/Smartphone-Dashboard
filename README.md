@@ -2,18 +2,18 @@
 
 ## 📌 Overview
 
-This project presents an interactive **Power BI dashboard** analyzing the smartphone market using real-world data.
-It focuses on **price, performance, value-for-money, and hardware features** to uncover insights useful for both **customers and business decision-makers**.
+This project is an interactive **Power BI dashboard** that analyzes the smartphone market using real-world data.
+It focuses on **price, performance, value-for-money, and hardware features** to uncover meaningful insights for **consumers and analysts**.
 
 ---
 
 ## 🎯 Objectives
 
-* Understand **pricing vs performance trends**
-* Identify **value-for-money smartphones**
-* Analyze **brand positioning**
-* Explore **hardware feature impact** (RAM, battery, camera, processor)
-* Support **data-driven buying decisions**
+* Analyze **price vs performance relationship**
+* Identify **top value-for-money smartphones**
+* Compare **brand positioning in the market**
+* Understand how **hardware features impact performance**
+* Enable **data-driven buying decisions**
 
 ---
 
@@ -25,43 +25,47 @@ It focuses on **price, performance, value-for-money, and hardware features** to 
 
 **Focus:** “What does the smartphone market look like?”
 
+<img width="1178" height="671" alt="Market Overview" src="https://github.com/user-attachments/assets/05963aa5-3f48-43d4-870a-bea4971cf7d6" />
+
 **Key Visuals:**
 
-* Total Models (KPI)
-* Average Price
-* Average Spec Score
-* Brand-wise Distribution (Bar Chart)
-* Price Category Distribution (Donut Chart)
-* Average Price by Brand (Column Chart)
+* KPI Cards:
+
+  * Average Market Value
+  * Total Models
+  * Average Spec Score
+* Average Price by Brand (Bar Chart)
+* Brand-wise Model Count (Bar Chart)
 * 5G Availability (Donut Chart)
-* OS Distribution (Bar Chart)
+* Price Category Distribution (Donut Chart)
 
 **Insights:**
 
-* Identifies dominant brands in the market
-* Shows overall pricing trends
-* Highlights adoption of 5G and OS distribution
+* A few brands dominate in terms of number of models
+* Flagship phones significantly increase average market value
+* Majority of smartphones support 5G
 
 ---
 
-### 📍 Page 2: Price vs Performance
+### 📍 Page 2: Price vs Performance Analysis
 
-**Focus:** “Is expensive = better?”
+**Focus:** “Is expensive always better?”
+
+<img width="1178" height="671" alt="Price vs Performance Analysis" src="https://github.com/user-attachments/assets/14e78b6d-998f-4364-9e19-8d53c24d6981" />
 
 **Key Visuals:**
 
-* Price vs Spec Score (Scatter Plot)
-* Price Distribution (Histogram)
+* Average Price by Price Category (Column Chart)
 * Spec Score Distribution (Histogram)
-* Avg Spec Score by Price Category (Column Chart)
-* Top 10 High Performance Phones (Bar Chart)
-* Price Category Slicer
+* Price Distribution (Histogram)
+* Brand-wise Price vs Performance (Area Chart)
+* Additional comparison of Price vs Spec Score trends
 
 **Insights:**
 
-* Weak correlation between price and performance
-* High-performance phones exist in mid-range segments
-* Helps identify overpriced vs efficient devices
+* Flagship devices have the highest prices but not always the best value
+* Spec scores are concentrated in mid-to-high ranges
+* Price distribution is skewed with most phones in lower segments
 
 ---
 
@@ -69,47 +73,54 @@ It focuses on **price, performance, value-for-money, and hardware features** to 
 
 **Focus:** “Which phones are actually worth buying?”
 
+<img width="1178" height="671" alt="Value for money" src="https://github.com/user-attachments/assets/cca6cfdf-ec4b-4163-b7f1-d651f8f2b0cd" />
+
 **Key Visuals:**
 
 * Price vs VFM Score (Scatter Plot)
-* Top 10 Value-for-Money Phones (Bar Chart)
 * VFM Label Distribution (Donut Chart)
-* Avg VFM Score by Brand (Column Chart)
-* Underpriced vs Overpriced Distribution
-* Brand & Price Filters
+* Average Spec Score by Price Category (Donut Chart)
+* Top Brands by VFM Score (Bar Chart)
+* Top Models by VFM Score (Bar Chart)
+* Filters for Brand and VFM Category
 
 **Insights:**
 
-* Highlights best-value smartphones
-* Identifies overpriced segments
-* Helps users make smarter purchase decisions
+* Majority of phones fall under “Average Value” category
+* Some brands consistently deliver higher value-for-money
+* High price does not guarantee high VFM score
 
 ---
 
 ### 📍 Page 4: Performance & Hardware Analysis
 
-**Focus:** “What drives performance?”
+**Focus:** “What drives smartphone performance?”
+
+<img width="1168" height="666" alt="Performance vs Hardware" src="https://github.com/user-attachments/assets/1c4e50c1-5a59-4feb-9476-21cd9bcfa32a" />
 
 **Key Visuals:**
 
 * RAM vs Spec Score (Scatter Plot)
 * Processor Speed vs Spec Score (Scatter Plot)
-* Avg Spec Score by Processor Brand (Treemap)
+* Average Spec Score by Processor Brand (Treemap)
 * Processor Brand Distribution (Donut Chart)
-* RAM Distribution (Histogram)
-* Decomposition Tree (Spec Score drivers)
+* Top Performing Models (Bar Chart)
+* Processor Speed vs Spec Score (Detailed Scatter)
 
 **Insights:**
 
-* RAM and processor speed strongly impact performance
-* Certain processor brands dominate high performance
-* Reveals key drivers behind spec score
+* Strong positive relationship between **RAM and performance**
+* Higher processor speed leads to better spec scores
+* Certain processor brands consistently outperform others
 
 ---
 
 ### 📍 Page 5: Features & User Experience
 
 **Focus:** “Real-world usability features”
+
+<img width="1178" height="671" alt="Features   User Experience" src="https://github.com/user-attachments/assets/32cd9d41-2898-42fa-9b2b-57d25cfe5f48" />
+
 
 **Key Visuals:**
 
@@ -131,6 +142,9 @@ It focuses on **price, performance, value-for-money, and hardware features** to 
 ### 📍 Page 6: Camera Analysis
 
 **Focus:** “Camera-focused buying decisions”
+
+<img width="1178" height="671" alt="Camera Deep Dive" src="https://github.com/user-attachments/assets/b4f455f7-59df-4803-a183-9c252a005de3" />
+
 
 **Key Visuals:**
 
